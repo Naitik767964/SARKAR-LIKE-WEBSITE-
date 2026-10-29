@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Fire Like Panel</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header><div class="logo">FF</div><div><h1>FREE FIRE <span>LIKE PANEL</span></h1><p>Fast • Simple • Secure</p></div></header>
+    <section class="card">
+      <h2>Send Likes</h2>
+      <p class="muted">Join the required Telegram channels, verify, then submit your UID.</p>
+      <label for="uid">Player UID</label>
+      <input id="uid" inputmode="numeric" placeholder="Enter Free Fire UID" maxlength="24">
+      <label for="region">Server / Region</label>
+      <select id="region"><option value="IND">India (IND)</option><option value="BD">Bangladesh (BD)</option><option value="BR">Brazil (BR)</option><option value="US">United States (US)</option><option value="SAC">SAC</option><option value="NA">North America (NA)</option><option value="EU">Europe (EU)</option><option value="ME">Middle East (ME)</option><option value="SG">Singapore (SG)</option><option value="ID">Indonesia (ID)</option><option value="TH">Thailand (TH)</option><option value="VN">Vietnam (VN)</option><option value="TW">Taiwan (TW)</option><option value="PK">Pakistan (PK)</option></select>
+      <button id="joinBtn" class="secondary">Load Required Channels</button>
+      <div id="channels" class="channels"></div>
+      <button id="verifyBtn" class="secondary" hidden>Verify Telegram Membership</button>
+      <button id="sendBtn">❤️ SEND LIKES</button>
+      <p id="notice" role="status" class="notice"></p>
+    </section>
+    <section id="result" class="card report" hidden></section>
+    <footer>⚡ Powered by <strong>@Sarkargggg</strong></footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

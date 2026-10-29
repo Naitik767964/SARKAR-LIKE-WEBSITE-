@@ -1,0 +1,9 @@
+{
+  "name": "free-fire-like-panel-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel-ready starter for a Free Fire likes panel with serverless API routes",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0"
+  }
+}
